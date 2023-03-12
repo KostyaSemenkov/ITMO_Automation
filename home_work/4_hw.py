@@ -56,7 +56,7 @@ class Demoqa:
         self.locator = locator
 
     def click(self):
-        return print(f'Клик по кнопке {self.text_box}')
+        return f'Клик по кнопке {self.text_box}'
 
 
 check_box = Demoqa('Check box')

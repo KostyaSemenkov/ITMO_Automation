@@ -10,12 +10,12 @@ class Car:
     def stoped(self):
         return 'Автомобиль заглушен'
 
-    def year1(self):
-        return self.year
+    def year1(self, year2):
+        self.year = year2
 
-    def type1(self):
-        return self.type
+    def type1(self, type2):
+        self.type = type2
 
-    def color1(self):
-        return self.color
+    def color1(self, color2):
+        self.color = color2
 

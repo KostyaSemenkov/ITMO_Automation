@@ -7,8 +7,13 @@ user_name = driver.find_elements(By.CSS_SELECTOR, 'user-name')
 pass_word = driver.find_elements(By.CSS_SELECTOR, 'password')
 sub_mit = driver.find_elements(By.CSS_SELECTOR, 'login-button')
 s = [user_name, pass_word, sub_mit]
+count = 0
 for i in range(len(s)):
     if s[i] is None:
-        print('Элемент не найден')
+        continue
     else:
-        print('Элемент найден')
+        count += 1
+if count == 3:
+    print('Элементы найдены')
+else:
+    print('Элементы не найдены')

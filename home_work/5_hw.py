@@ -18,4 +18,6 @@ def test_page(a, b, c):
         return 'Элементы найдены'
     else:
         return 'Элементы не найдены'
+
+
 print(test_page('user-name', 'password', 'login-button'))

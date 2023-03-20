@@ -19,3 +19,4 @@ class Car:
     def color1(self, color2):
         self.color = color2
 
+print('lemur')
